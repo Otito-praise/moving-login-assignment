@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    padding-bottom: 300px;
+    position: absolute;
+    /* height: 100%;
+width: 100%; */
+    /* background-image: url("./images hospital/login-bg.jpg");
+background: cover;
+animation: moving 30s linear infinite; */
+}
+
+
+/* .moving {
+position: fixed;
+height: 100%;
+width: 100%;
+} */
+
+.moving .moving-bg {
+    box-sizing: content-box;
+    padding-bottom: 300px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/login-bg.jpg");
+    background: cover;
+    animation: moving 30s linear infinite;
+}
+
+@keyframes moving {
+    from {
+        transform: translateY();
+    }
+    to {
+        transform: translateY(-300px);
+    }
+}
+
+.container {
+    position: fixed;
+    /* background-color: blue; */
+    background: rgb(231, 241, 229);
+    background: radial-gradient(circle, rgba(231, 241, 229, 0.05955885772277658) 0%, rgba(116, 208, 202, 1) 96%);
+    /* background-color: #F3F4F6; */
+    height: 400px;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 10px 10px;
+}
+
+
+/* .form {
+margin-top: 20%;
+margin-left: 30%;
+position: fixed;
+}
+
+.form1 {
+margin-top: 22%;
+margin-left: 30%;
+position: fixed;
+} */
+
+.bold {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.meduim {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.put {
+    padding: 10px;
+    margin: 15px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-right: 20px;
+    color: blue;
+}
+
+.check {
+    margin-left: 15px;
+    color: gray;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border: solid lightskyblue;
+    border-radius: 10px 10px;
+    color: rgb(13, 28, 200);
+    color: radial-gradient(circle, rgba(13, 28, 200, 0.7010154403558299) 43%, rgba(88, 77, 212, 0.40689779329700626) 88%);
+}
+
+.create {
+    margin-left: 10px;
+    /* padding: 40px; */
+    margin-top: 10px;
+    padding: 10px;
+}
